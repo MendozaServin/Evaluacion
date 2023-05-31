@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body style="background-color: rgba(0, 0, 0, 0.85); color: beige;">
+        <div>
+            <h1>EVALUACION</h1>
+
+            <div class="input">
+                <form>
+                    <div>
+                        <label for="inputTarea">Ingresa una nueva tarea</label>
+                        <input type="text" id="inputTarea" />
+                    </div>
+
+                    <button type="button" onclick="tarea.agregarTarea(inputTarea.value)">Publicar</button>
+                </form>
+            </div>
+
+            <div class="tareas" id="listTareas">
+                <!-- <ul id="listTareas"> -->
+                </ul>
+            </div>
+        </div>
+    </body>
+
+    <script src="js/script.js"></script>
+</html>
